@@ -3,9 +3,8 @@
 /**
  * main - Entry point
  *
- * Result: always 0 (success)
+ * Return: always 0 (success)
  */
-
 int main(void)
 {
 	int i;
