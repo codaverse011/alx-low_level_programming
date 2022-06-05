@@ -12,7 +12,7 @@ int main(void)
 	int n;
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	/*Code goes there*/
+	/*your code goes there*/
         int i;
 	i = n % 10;
 	if (i > 5)
