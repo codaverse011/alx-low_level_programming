@@ -1,11 +1,7 @@
 #include "main.h"
 
 /**
-<<<<<<< HEAD
  *main - Prints putchar
-=======
- * Main - Entry point
->>>>>>> cefb43b704e29e2e92d223901de86d7db998dd35
  *
  * Return: Always 0 (success)
  */
