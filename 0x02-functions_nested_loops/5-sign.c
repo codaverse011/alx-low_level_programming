@@ -1,4 +1,4 @@
-include "main.h"
+#include "main.h"
 
 /**
  * main - Entry point
@@ -22,3 +22,4 @@ int print_sign(int n)
 		_putchar('-');
 		return ('-1');
 	}
+}
