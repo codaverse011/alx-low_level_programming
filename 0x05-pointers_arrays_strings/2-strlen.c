@@ -8,11 +8,11 @@ include "main.h"
  */
 int _strlen(char *s)
 {
-	int i = 0;
+	int len;
 	
-	while (s[i])
+	for (; *s != '\0'; s++)
 	{
-		i++;
+		len += 1;
 	}
-	return (i);
+	return (len);
 }
