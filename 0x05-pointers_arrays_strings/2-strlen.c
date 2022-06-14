@@ -1,4 +1,5 @@
-include "main.h"
+#include "main.h"
+#include <string.h>
 
 /**
  *_strlen -  swaps the values of two integers.
