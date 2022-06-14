@@ -5,7 +5,7 @@
  *_strlen -  swaps the values of two integers.
  *@s: String input
  *
- *Return: Lenght of string
+ *Return: Returns lenght of string
  */
 int _strlen(char *s)
 {
