@@ -9,6 +9,7 @@ int main(void)
 	int i;
 
 	printf("infinite loop incoming :(\n");
+
 	i = 0;
 
 	/*
@@ -17,6 +18,6 @@ int main(void)
 	 * putchar(i);
 	 * }
 	 */
-	printf("infinite loop avoiided! \\o/\n");
+	printf("infinite loop avoided! \\o/\n");
 	return (0);
 }
