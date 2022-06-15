@@ -11,19 +11,15 @@
  */
 char *_strncat(char *dest, char *src, int n)
 {
-	int length, j;
-	/* j is a counter for  n bytes of src to be concatenated */
-	/* length = length of destination string */
+	int c, c2;
+	/*find the size of the dest array*/
+
+	while (dest[c])
+		c++;
+	/*iterate through each src array value without the null byte*/
 	
-	length = 0;
-	while (dest[length] != '\0')
-	{
-		length++;
-		for (j = 0; j < n && src[j] != '\0'; j++, length++)
-		{
-			dest[length] = src[j];
-		}
-	}
-	dest[length] = '\0';
+	for (c2 = 0; src[c2]; c++)
+	/*append src[c2] to dest[c] while overwritting the null byte in dest*/
+	dest[c++] = src [c2];
 	return (dest);
 }
