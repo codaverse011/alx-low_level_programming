@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * print_diagonal -> printing line
@@ -19,6 +20,5 @@ void print_diagonal(int n)
 			_putchar(92);
 			_putchar('\n');
 		}
-		_putchar('\n');
 	}
 }
