@@ -1,19 +1,20 @@
 #include "main.h"
-#include <string.h>
 
 /**
- *_strlen -  swaps the values of two integers.
- *@s: String input
+ *_strlen -  length of a string
+ *@s: A pointer to an int that will update
  *
- *Return: Returns lenght of string
+ * Return: void
  */
 int _strlen(char *s)
 {
 	int len;
+
+	len = 0;
 	
-	for (; *s != '\0'; s++)
+	while (s[len] != '\0')
 	{
-		len += 1;
+		len++
 	}
 	return (len);
 }
