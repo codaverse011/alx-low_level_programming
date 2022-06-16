@@ -2,20 +2,21 @@
 #include "main.h"
 
 /**
- * _string_toupper - changes  all lowercase letters
+ * string_toupper - changes  all lowercase letters
  * @s: string to return
  * Return: String
  */
-char *string_toupper(char *str)
+char *string_toupper(char *s)
 {
-	int i;
+	int i = 0;
 
-	for (i = 0; str[i] != '\0'; i++)
+	while (s[i])
 	{
-		if (str[i] >= 97 && str[i] <= 122)
+		if (s[i] >= 97 && s[i] <= 122)
 		{
-			str[i] = str[i] - 32;
+			s[i] = s[i] - 32;
+			i++;
 		}
 	}
-	return (str);
+	return (s);
 }
