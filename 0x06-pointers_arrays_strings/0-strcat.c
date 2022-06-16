@@ -6,9 +6,9 @@
  *@dest: parameter to append
  *@src: parameter to source
  *
- *Return: Always 0
+ *Return: a string
  */
-char *_strcat(char *dest, char *src,)
+char *_strcat(char *dest, char *src)
 {
 	int a = 0;
 	int b = 0;
