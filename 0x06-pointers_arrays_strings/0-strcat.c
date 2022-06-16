@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- *_strncat - function that concatenates two numbers
+ *_strncat - function that concatenates two strings
  *@dest: parameter to append
  *@src: parameter to source
  *
