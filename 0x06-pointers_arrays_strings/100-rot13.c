@@ -10,11 +10,11 @@ char *rot13(char *c)
 	char *alphas = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 	char *codes = "nopqrstuvwxyzabcdefghijklmNOPQRSTUVWXYZABCDEFGHIJKLM";
 	int i = 0;
-	
+
 	while (c[i] != '\0')
 	{
 		int j = 0;
-		
+
 		while (alphas[j] != '\0')
 		{
 			if (c[i] == alphas[j])
