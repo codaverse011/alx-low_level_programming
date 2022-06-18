@@ -4,9 +4,9 @@
  * main - main block
  * description: print the first 50 fibonacci numbers, starting with 1 and 2.
  * Numbers must be comma and space separated
- * Return 0
+ * Return: Always 0 (success)
  */
-int main (void)
+int main(void)
 {
 	int count = 2;
 	long inti = 1, j = 2;
